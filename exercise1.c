@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <limits.h>
 
 int main() {
     short signed_var1 = 1;
-    short signed_var2 = SHRT_MAX; 
+    short signed_var2 = 32767; 
     short signed_var3 = 32768;     
 
     unsigned short unsigned_var1 = 1;
